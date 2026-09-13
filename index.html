@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NIVEL - Ambient Computing Fashion</title>
+<meta name="description" content="Clothes that compute quietly. The computer leaves the pocket and enters the garment. First drop soon.">
+<meta property="og:title" content="NIVEL - Ambient Computing Fashion">
+<meta property="og:description" content="Clothes that compute quietly. First drop soon.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jacobegarcia.github.io/nivel/">
+<meta property="og:image" content="https://jacobegarcia.github.io/nivel/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NIVEL - Ambient Computing Fashion">
+<meta name="twitter:description" content="Clothes that compute quietly. First drop soon.">
+<meta name="twitter:image" content="https://jacobegarcia.github.io/nivel/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#141414;--paper:#F3F1EC;--rust:#B4562A;--line:#d8d4cb}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif;font-weight:400;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+header{padding:28px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:baseline}
+.wordmark{font-weight:600;letter-spacing:.34em;font-size:15px}
+.tag{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#6b675f}
+.hero{padding:120px 0 96px}
+.hero h1{font-size:clamp(34px,6vw,52px);font-weight:500;line-height:1.15;letter-spacing:-.01em;max-width:14em}
+.hero h1 em{font-style:normal;color:var(--rust)}
+.hero p{margin-top:28px;font-size:18px;color:#3d3a35;max-width:32em}
+section{padding:72px 0;border-top:1px solid var(--line)}
+.kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--rust);margin-bottom:20px}
+h2{font-size:24px;font-weight:500;letter-spacing:-.01em;margin-bottom:36px}
+.piece{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line)}
+.piece:last-of-type{border-bottom:1px solid var(--line)}
+.piece .num{font-size:12px;color:#6b675f;padding-top:4px;font-variant-numeric:tabular-nums}
+.piece h3{font-size:16px;font-weight:600;margin-bottom:6px}
+.piece p{font-size:14.5px;color:#3d3a35}
+.manifesto p{font-size:19px;line-height:1.7;max-width:30em}
+.manifesto p+p{margin-top:24px}
+.manifesto .salute{font-style:italic;color:var(--rust)}
+.waitlist p{font-size:16px;color:#3d3a35;max-width:34em;margin-bottom:28px}
+form#nf{display:flex;gap:12px;max-width:460px}
+form#nf input{flex:1;padding:14px 16px;font:inherit;font-size:15px;border:1px solid var(--ink);background:transparent;color:var(--ink);border-radius:2px;outline:none}
+form#nf input:focus{border-color:var(--rust)}
+form#nf button{padding:14px 22px;font:inherit;font-size:13px;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:2px;cursor:pointer}
+form#nf button:hover{background:var(--rust);border-color:var(--rust)}
+.done{display:none;margin-top:18px;font-size:14.5px;color:var(--rust)}
+.waitlist .fine{margin-top:18px;font-size:13px;color:#6b675f}
+footer{padding:40px 0 56px;border-top:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:12px}
+.fbrand{font-weight:600;letter-spacing:.34em;font-size:13px}
+.cols{display:flex;gap:28px;font-size:12px;letter-spacing:.08em;color:#6b675f;flex-wrap:wrap}
+@media(max-width:600px){
+  .hero{padding:72px 0 56px}
+  section{padding:52px 0}
+  .piece{grid-template-columns:40px 1fr;gap:14px}
+  form#nf{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="wordmark">NIVEL</span>
+    <span class="tag">Ambient computing fashion</span>
+  </div>
+</header>
+
+<section class="hero" style="border-top:none">
+  <div class="wrap">
+    <h1>Clothes that <em>compute quietly</em>.</h1>
+    <p>The computer leaves the pocket and enters the garment. No screens, no feeds. Voice, touch and tap. The interface disappears into the cloth.</p>
+  </div>
+</section>
+
+<section id="line">
+  <div class="wrap">
+    <div class="kicker">First line of five pieces - small run - numbers go to the list first</div>
+    <h2>The Opening Line</h2>
+
+    <div class="piece">
+      <span class="num">01</span>
+      <div><h3>Collar Jacket</h3><p>Collared jacket with the assistant built into the collar point. Ask out loud. It answers. No screen, no phone out of the pocket.</p></div>
+    </div>
+    <div class="piece">
+      <span class="num">02</span>
+      <div><h3>Carry Purse</h3><p>Structured purse with an ambient compute core in the base. It carries your things and quietly runs your day.</p></div>
+    </div>
+    <div class="piece">
+      <span class="num">03</span>
+      <div><h3>Weather Shell</h3><p>Weather shell with a sensor skin in the lining. Knows the cold before you do and tells the rest of the line.</p></div>
+    </div>
+    <div class="piece">
+      <span class="num">04</span>
+      <div><h3>Haptic Trouser</h3><p>Tailored trouser with a haptic seam down each leg. Directions and notifications land as touch, not noise.</p></div>
+    </div>
+    <div class="piece">
+      <span class="num">05</span>
+      <div><h3>Plain Tee</h3><p>Heavy tee in off-white. No compute inside. Every line needs one piece that is only clothing.</p></div>
+    </div>
+
+    <p style="margin-top:28px;font-size:14px;color:#6b675f">The line grows slowly. The next garment earns its place or it does not ship.</p>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="wrap">
+    <div class="kicker">Worn, not used</div>
+    <p><span class="salute">Worn,</span></p>
+    <p>The last decade put a screen between you and everything. NIVEL puts the computer into the garment itself and takes the screen away. The collar answers questions. The purse keeps the day in order. The seam taps you when it matters.</p>
+    <p>Nothing glows. Nothing scrolls. You wear it and it works.</p>
+  </div>
+</section>
+
+<section class="waitlist" id="waitlist">
+  <div class="wrap">
+    <div class="kicker">The first drop is small</div>
+    <h2>Get a number</h2>
+    <p>Leave an address and you get a number in line. When the opening line ships, numbers go first. One email when it is time - no newsletter, no noise.</p>
+    <form id="nf" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="NIVEL_WEB3FORMS_KEY">
+      <input type="hidden" name="subject" value="NIVEL waitlist signup">
+      <input type="hidden" name="from_name" value="NIVEL waitlist">
+      <input type="email" name="email" required placeholder="your@address.com" aria-label="Email address">
+      <button type="submit">Get a number</button>
+    </form>
+    <div class="done" id="nd">You're in line. Number assigned at launch.</div>
+    <p class="fine">Your number is stitched into your garment when it ships. Sewn, not printed.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="fbrand">NIVEL</span>
+    <div class="cols">
+      <span>Ambient computing fashion</span>
+      <span>A line revived</span>
+      <span>&copy; 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('nf').addEventListener('submit',function(e){
+  var key=this.querySelector('input[name=access_key]').value;
+  if(!key||key==='NIVEL_WEB3FORMS_KEY'){e.preventDefault();}
+  var done=document.getElementById('nd');
+  var input=this.querySelector('input[type=email]');
+  if(e.defaultPrevented){done.style.display='block';input.value='';return;}
+  e.preventDefault();
+  var data=new FormData(this);
+  fetch(this.action,{method:'POST',body:data,headers:{'Accept':'application/json'}}).then(function(){
+    done.style.display='block';input.value='';
+  }).catch(function(){done.style.display='block';});
+});
+</script>
+
+</body>
+</html>
